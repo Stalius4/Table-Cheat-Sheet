@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Cheat-Sheet </title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+<div id="top-div">
+    <section id="table-code">
+    <h2>Table Code </h2>
+    <pre>
+        <!-- Defines the entire table -->
+       <div class="table" onmouseover="changeClass('table-div', true, 'hover-table')" onmouseout="changeClass('table-div', false)">&lt;table&gt;</div>
+          <div class="thead" onmouseover="changeClass('thead-div', true, 'hover-thead')" onmouseout="changeClass('thead-div', false)">    &lt;thead&gt;</div> 
+                <!-- Defines a table row -->
+                <div class="tr" onmouseover="changeClass('tr-div1', true, 'hover-tr')" onmouseout="changeClass('tr-div1', false)">         &lt;tr&gt;</div>
+                    <!-- Defines a header cell -->
+                    <div class="th" onmouseover="changeClass('header1', true, 'hover-th')" onmouseout="changeClass('header1', false)">            &lt;th&gt;Header 1&lt;/th&gt;</div>
+                    
+                    <!-- Defines a header cell -->
+                    <div class="th" onmouseover="changeClass('header2', true, 'hover-th')" onmouseout="changeClass('header2', false)">            &lt;th&gt;Header 2&lt;/th&gt;</div>
+                    <!-- Defines a header cell -->
+                    <div class="th" onmouseover="changeClass('header3', true, 'hover-th')" onmouseout="changeClass('header3', false)">            &lt;th&gt;Header 3&lt;/th&gt;</div>
+                    <div class="tr" onmouseover="changeClass('tr-div1', true, 'hover-tr')" onmouseout="changeClass('tr-div1', false)">         &lt;/tr&gt;</div>
+                <div class="thead" onmouseover="changeClass('thead-div', true, 'hover-thead')" onmouseout="changeClass('thead-div', false)">    &lt;/thead&gt;</div>
+            <!-- Contains the data rows -->
+            <div class="tbody" onmouseover="changeClass('tbody-div', true, 'hover-tbody')" onmouseout="changeClass('tbody-div', false)">    &lt;tbody&gt;</div>
+            
+                <!-- Defines a table row -->
+                <div class="tr" onmouseover="changeClass('tr-div2', true, 'hover-tr')" onmouseout="changeClass('tr-div2', false)">         &lt;tr&gt;</div>
+                    <!-- Defines a standard data cell -->
+                    <div class="td" onmouseover="changeClass('td-div1', true, 'hover-td')" onmouseout="changeClass('td-div1', false)">          &lt;td&gt;Row 1, Cell 1&lt;/td&gt;</div>
+                    
+                    <!-- Defines a standard data cell -->
+                    <div class="td" onmouseover="changeClass('td-div2', true, 'hover-td')" onmouseout="changeClass('td-div2', false)">          &lt;td&gt;Row 1, Cell 2&lt;/td&gt;</div>
+                    <!-- Defines a standard data cell -->
+                    <div class="td" onmouseover="changeClass('td-div3', true, 'hover-td')" onmouseout="changeClass('td-div3', false)">          &lt;td&gt;Row 1, Cell 3&lt;/td&gt;</div>
+                    <div class="tr" onmouseover="changeClass('tr-div2', true, 'hover-tr')" onmouseout="changeClass('tr-div2', false)">         &lt;/tr&gt;</div>
+                <!-- Another table row -->
+                <div class="tr" onmouseover="changeClass('tr-div3', true, 'hover-tr')" onmouseout="changeClass('tr-div3', false)">         &lt;tr&gt;</div>
+                    <!-- Defines a standard data cell -->
+                    <div class="td" onmouseover="changeClass('td-div4', true, 'hover-td')" onmouseout="changeClass('td-div4', false)">          &lt;td&gt;Row 2, Cell 1&lt;/td&gt;</div>
+                    <!-- Defines a standard data cell -->
+                    <div class="td" onmouseover="changeClass('td-div5', true, 'hover-td')" onmouseout="changeClass('td-div5', false)">          &lt;td&gt;Row 2, Cell 2&lt;/td&gt;</div>
+                    <!-- Defines a standard data cell -->
+                    <div class="td" onmouseover="changeClass('td-div6', true, 'hover-td')" onmouseout="changeClass('td-div6', false)">          &lt;td&gt;Row 2, Cell 3&lt;/td&gt;</div>
+                    <div class="tr" onmouseover="changeClass('tr-div3', true, 'hover-tr')" onmouseout="changeClass('tr-div3', false)">         &lt;/tr&gt;</div>
+                <div class="tbody" onmouseover="changeClass('tbody-div', true, 'hover-tbody')" onmouseout="changeClass('tbody-div', false)">    &lt;/tbody&gt;</div>
+                <div class="table" onmouseover="changeClass('table-div', true, 'hover-table')" onmouseout="changeClass('table-div', false)">&lt;/table&gt;</div> 
+    </pre>
+</section>
+
+<section class="table-example">
+    <table class="table-before" id="table-div">
+        <h2>Sample HTML Table</h2>
+    
+        <thead id="thead-div">
+            <tr id="tr-div1">  
+                <th id="header1">Header 1</th>
+                <th id="header2">Header 2</th>
+                <th id="header3">Header 3</th>
+        
+            </tr>
+        </thead>
+        <tbody id="tbody-div">
+            <tr id="tr-div2">
+                
+                <td id="td-div1">Row 1, Cell 1</td>
+                <td id="td-div2">Row 1, Cell 2</td>
+                <td id="td-div3">Row 1, Cell 3</td>
+              
+            </tr >
+            <tr id="tr-div3">
+               
+                <td id="td-div4">Row 2, Cell 1</td>
+                <td id="td-div5">Row 2, Cell 2</td>
+                <td id="td-div6">Row 2, Cell 3</td>
+               
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+</section>
+</div>
+<section id="table-description">
+das
+</section>
+</body>
+</html>

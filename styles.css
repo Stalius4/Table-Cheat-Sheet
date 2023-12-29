@@ -1,0 +1,120 @@
+:root{
+    --text-size: 15px;
+}
+
+
+body{
+    
+    background-color: #94aaa9;
+}
+
+
+
+
+.table-example, #table-code{
+    background-color: rgb(255, 255, 255);
+    padding: 0px 45px 45px 45px;
+}
+
+#top-div{
+    display:flex;
+    justify-content:center;
+    
+}
+table {
+  
+    border-collapse: collapse;
+    margin-top: 55px;
+    height: 220px;
+    background-color: #ffffff;
+}
+th, td {
+    position: relative;
+    z-index: 1;
+    border: 2px solid rgb(18, 11, 11); /* Add borders to cells */
+    padding: 0px 18px;
+    text-align: left;
+    text-align: center;
+    
+    
+    
+}
+th {
+    background-color: #f2f2f2;
+    height: 130px;
+} 
+
+
+.table-example, h2{
+    
+    text-align: center;
+}
+
+tr{
+    height: 84px;
+}
+textarea:active{
+    border: none;
+}
+
+
+.table{
+    color: #6DD3CE;
+    font-weight: bold;
+    font-size: var(--text-size);
+}
+
+.hover-table{
+    border: solid 3px #6DD3CE;
+}
+
+pre {
+    display:inline-table
+}
+.thead{
+    color: #C8E9A0;
+    font-weight: bold;
+    font-size: var(--text-size);
+}
+
+.hover-thead{
+   
+    border: solid 3px #C8E9A0;
+}
+.tr{
+    color: #F7A278;
+    font-weight: bold;
+    font-size: var(--text-size);
+}
+.hover-tr{
+    border: solid 3px #F7A278;
+}
+.th{
+    color: #A13D63;
+    font-weight: bold;
+    font-size: var(--text-size); 
+}
+
+.hover-th{
+    border: solid 3px #A13D63;
+}
+.tbody{
+    color: #351E29;
+    font-weight: bold;
+    font-size: var(--text-size); 
+    
+}
+
+.hover-tbody{
+    border: solid 3px #351E29;
+}
+
+.td{
+    color: rgb(44, 188, 54);
+    font-weight: bold;
+    font-size: var(--text-size); 
+}
+
+.hover-td{
+    border: solid 3px rgb(44, 188, 54);
+}
